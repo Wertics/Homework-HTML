@@ -1,0 +1,43 @@
+header h1 {
+    color:red
+}
+
+.redtext span {
+    color: red;
+}
+
+.bluesquare {
+    color: white;
+    width: 100px;
+    background-color: blue;
+    margin-bottom: 175px;
+}
+
+.greenlinemini {
+    color: white;
+    padding: 5px;
+    background-color: green;
+}
+
+.link:hover {
+    font-size: 1.6em;
+}
+
+.greenlinemax {
+    color: white;
+    height: 25px;
+    padding: 50px;
+    background-color: green;
+}
+
+.titleform {
+    margin-left: 100px;
+}
+
+li {
+    border: 1px solid black;
+}
+
+footer {
+    padding-bottom: 200px;
+}
