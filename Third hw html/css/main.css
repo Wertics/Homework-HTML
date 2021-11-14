@@ -1,0 +1,144 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: #201b2d;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;    
+}
+
+p {
+    line-height: 1.65em;
+}
+
+.header {
+    background: rgba(78,192,254,1);
+    background: -moz-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,192,254,1)), color-stop(100%, rgba(55,144,217,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: linear-gradient(135deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ec0fe', endColorstr='#3790d9', GradientType=1 );
+    padding-top: 62px;
+    padding-bottom: 145px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.target {
+    color: white;
+    margin-top: 170px;
+    width: 600px;
+}
+
+.title {    
+    margin-top: 0px;
+    margin-bottom: 46px;
+    font-size: 37px;
+    line-height: 1.4em;   
+}
+
+.title span {
+    font-size: 59px;
+    line-height: 1.7em;
+}
+
+.intro {
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 16px;
+    margin-bottom: 46px;
+    width: 400px;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;    
+    color: black;
+    background: #ffd429;
+    border: 0px solid #ffd429;
+    display: block;
+    width: 222px;
+    padding: 20px 0px;
+    text-align: center; /*tac*/
+    text-decoration: none; /*tdn*/
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: #e0b920;
+}
+
+.travelicon {
+    margin-right: -50px;
+    margin-top: 61px;
+}
+
+.future {
+    padding-top: 108px;
+    padding-bottom: 123px;
+}
+
+.section-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.what-in-my-future {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.time {
+    width: 285px;
+    background: url('../img/icon1.jpg') no-repeat center top;
+    padding-top: 60px;
+
+}
+
+.my-future-title {
+    font-size: 19px;
+    text-align: center;
+}
+
+.my-future-text {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.travel {
+    width: 260px;
+    background: url('../img/icon2.jpg') no-repeat center top;
+    padding-top: 60px;
+}
+
+.build {
+    width: 295px;
+    background: url('../img/icon3.jpg') no-repeat center top;
+    padding-top: 60px;
+}
+
+.order {
+    display: flex;
+    justify-content: space-between;
+    background: #ecf3f8;
+    padding-top: 105px;
+    padding-bottom: 102px;   
+}
+
+.form {
+
+}
