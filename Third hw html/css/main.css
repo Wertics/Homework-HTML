@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;    
 }
 
+h2 {
+    margin: 0;
+}
+
 p {
     line-height: 1.65em;
 }
@@ -140,5 +144,42 @@ p {
 }
 
 .form {
+    display: block;
+    margin-top: 63px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 373px;
+}
 
+.input {
+    width: 344px;
+    border: 1px solid #bbbbbb;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 5px ;
+    height: 48px;
+    padding-left: 25px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.btn-form {
+    border: 0px;
+    cursor: pointer;
+    width: 373px;
+}
+
+.credits {
+    font-size: 14px;
+    color: white;
+    font-family: 'Open-Sans' sans-serif;
+    margin: 0px;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background: #164d7a;
+    padding: 65px 0px;
 }
