@@ -160,6 +160,7 @@ p {
     padding-left: 25px;
     display: block;
     margin-bottom: 15px;
+    box-sizing: border-box;
 }
 
 .btn-form {
@@ -190,6 +191,9 @@ p {
     .container {
         width: 960px;
     }
+    p, .title {
+        width: auto;
+    }
     .target {
         width: 520px;
     }
@@ -202,9 +206,6 @@ p {
 @media screen and (max-width: 992px) {
     .header {
         padding-bottom: 0;
-    }
-    p {
-        width: auto;
     }
     .container {
         width: 720px;
@@ -226,7 +227,7 @@ p {
         line-height: 1.0em;
     }
     .input {
-        width: 100%+25px;
+        width: 100%;
     }
     .btn {
         width: 100%;
@@ -304,10 +305,7 @@ p {
         background-position: top center;
         width: 100%;
     }
-    .input {
-        width: 90%+25px;
-    }
-    .btn {
+    .form {
         width: 90%;
     }
 }
