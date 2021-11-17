@@ -203,6 +203,9 @@ p {
     .header {
         padding-bottom: 0;
     }
+    p {
+        width: auto;
+    }
     .container {
         width: 720px;
     }
