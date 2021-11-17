@@ -301,4 +301,7 @@ p {
         background-position: top center;
         width: 100%;
     }
+    .form {
+        width: 90%;
+    }
 }
