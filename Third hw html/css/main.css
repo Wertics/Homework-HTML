@@ -302,6 +302,9 @@ p {
         width: 100%;
     }
     .input {
+        width: 90%+25px;
+    }
+    .btn {
         width: 90%;
     }
 }
